@@ -14,6 +14,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.fakedataapp.R
 
+/**
+ * This composable will simulate a connection failed message when
+ * fetching fails or you don't have internet access.
+ */
 @Composable
 fun FakeError(modifier: Modifier = Modifier) {
     Column(

@@ -15,6 +15,9 @@ import kotlinx.coroutines.launch
 import retrofit2.HttpException
 import java.io.IOException
 
+/**
+ * The viewmodel will expose the state of the ui.
+ */
 class FakePostViewModel(
     private val repository: FakePostRepository
 ): ViewModel() {

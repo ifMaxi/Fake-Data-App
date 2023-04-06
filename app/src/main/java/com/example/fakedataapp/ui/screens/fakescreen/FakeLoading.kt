@@ -14,6 +14,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.fakedataapp.R
 
+/**
+ * This composable simulates the loading of the content on the screen.
+ */
 @Composable
 fun FakeLoading(modifier: Modifier = Modifier) {
     Column(

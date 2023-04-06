@@ -18,6 +18,19 @@ import com.example.fakedataapp.ui.screens.fakescreen.FakeError
 import com.example.fakedataapp.ui.screens.fakescreen.FakeLoading
 import com.example.fakedataapp.ui.theme.FakeDataAppTheme
 
+/**
+ * The main screen of the app.
+ *
+ * This is made up of the following:
+ *
+ * [HomeScreen] composable which will show the appropriate screen,
+ * according to the data collection fails or success.
+ *
+ * [FakePostList] composable which uses a LazyColumn
+ * to display a list of data fetched from the internet.
+ *
+ * [FakePostScreen] composable which will contain the data from the api.
+ */
 @Composable
 fun HomeScreen(
     modifier: Modifier = Modifier,
