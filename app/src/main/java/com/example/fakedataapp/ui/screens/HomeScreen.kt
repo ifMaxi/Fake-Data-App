@@ -39,7 +39,7 @@ fun FakePostList(
         modifier = modifier
             .fillMaxSize()
     ) {
-        items(showFakeData) {fakeApp ->
+        items(showFakeData) { fakeApp ->
             FakePostScreen(onFakeData = fakeApp)
         }
     }
